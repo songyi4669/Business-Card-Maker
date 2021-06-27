@@ -22,6 +22,14 @@ const formRef = useRef();
         fileURL
     } = card;
 
+    const onFileChange = file => {
+        updateCard({
+            ...card,
+            fileName: file.name,
+            fileURL: file.url,
+        });
+    };
+
     const onChange=(event)=>{
         if (event.currentTarget===null){
             return;
@@ -89,7 +97,7 @@ const formRef = useRef();
             >
             </textarea>
             <div className={styles.fileInput}>
-                <FileInput />
+                <FileInput name={fileName} onFileChange={onFileChange}/>
             </div>
             <Button name='Delete' onClick={onSubmit} />
             
