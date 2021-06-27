@@ -19,7 +19,6 @@ const formRef = useRef();
         message,
         theme,
         fileName,
-        fileURL
     } = card;
 
     const onFileChange = file => {
