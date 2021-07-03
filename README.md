@@ -1,6 +1,9 @@
 # Business-Card-Make🙎‍♀️🙍‍♂️
 https://card-maker-song.netlify.app
 
+![cardmakergif](https://user-images.githubusercontent.com/81962246/124360068-af3f5080-dc62-11eb-9b76-c809cb3b366d.gif)
+
+
 ## 소개
 - 리액트로 제작한 명함을 등록할 수 있는 앱입니다.
 
